@@ -71,8 +71,9 @@ body{margin: 0;padding: 0}
 .menu li a {color: #ffffff;font-size: 21.76px;text-transform: uppercase;text-decoration: none;}
 .banner{background: url(../images/banner.jpg);height: 1010px;width: 100%;		}
 .snacks_txt{float: left;width: 50%;padding: 0 80px 0 60px;height: 100%; background: #e6e6e6;border-radius: 0 50px 50px 0;}
-.breakfast, .food{padding: 0px 35px;height: 770px;width: 100%;}
+.breakfast, .food{padding: 0px 35px;height: 770px;width: 100%;float: left;}
 .breakfast{margin: 65px 0 55px 0}
+.food{margin: 55px 0}
 .snacks_img{background: url(../images/breakfast.jpg) no-repeat;height: 100%;width: 50%;float: left;border-radius: 50px 0 0 50px;}
 .snacks_txt h4 {margin-top: 270px;font-size: 107.78px;color: #b5b5b5;font-family: OpenSans-ExtraBold;text-transform: uppercase;}
 .snacks_txt h1 {font-size: 146.43px;color: #b5b5b5;text-transform: uppercase;font-family: OpenSans-ExtraBold;}
@@ -197,7 +198,7 @@ body{margin: 0;padding: 0}
     margin: 0 50px;
 }
 .cooking_txt{float: left;width: 40%;padding: 0 80px 0 40px;height: 100%; background: #e6e6e6;border-radius: 0 50px 50px 0;}
-.cooking{padding: 0px 35px;height: 770px;width: 100%;margin: 65px 0 55px 0}
+.cooking{padding: 0px 35px;height: 770px;width: 100%;margin: 40px 0 55px 0;float: left;}
 .cooking_img{background: url(../images/cooking.jpg) no-repeat;height: 100%;width: 60%;float: left;border-radius: 50px 0 0 50px;}
 
 .cooking_txt h4 {margin-top: 270px;font-size: 121.75px;color: #b5b5b5;font-family: OpenSans-ExtraBold;text-transform: uppercase;}
@@ -227,14 +228,13 @@ footer {
     float: left;
 }
 .subsribe_dv {
-    width: 26%;
-    float: left; padding-left: 2.5%;border-left: 1px solid #fff;}
+    width: 26%;float: left; padding-left: 2.5%;}
 .footer_dv h3 {color: #989898;font-size: 19.75px;text-transform: capitalize;font-family: OpenSans-ExtraBold;margin-bottom: 15px;}
 .footer_dv ul li a {color: #989898;font-size: 19.75px;text-transform: capitalize;font-family: OpenSans-Regular;margin-bottom: 15px;text-decoration: none;}
 .footer_dv ul li{list-style: none;margin-bottom: 10px;}
 .subsribe_dv h3{color: #989898;font-size: 19.75px;text-transform: capitalize;font-family: OpenSans-ExtraBold;margin-bottom: 15px;}
 .subsribe_dv p{color: #989898;font-size: 19.75px;font-family: OpenSans-Regular;margin-bottom: 15px;}
-.subscribe{}
+.subsribe_dv:before {content: "";width: 1px;height: 200px;background: #ffffff;position: absolute;left: 0;top: -20px;}
 .subscribe input{width: 189px;height: 39px;float: left;background: transparent;border: 1px solid #989898;font-size: 14.58px;color: #989898;padding: 0 15px;}
 .subscribe a{width: 134px;height: 39px;background: #ffffff;float: left;font-size: 18.74px;color: #262626;text-decoration: none;line-height: 39px;text-align: center;}
 
